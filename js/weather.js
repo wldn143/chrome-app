@@ -1,6 +1,6 @@
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
-const API_KEY = "";/*각자 api key 넣기~ */
+const API_KEY = "0d664f73fb6efbb8df37b94a6b319934";/*각자 api key 넣기~ */
 function onGeoOk(position) {
   const lat = position.coords.latitude;
   const lng = position.coords.longitude;

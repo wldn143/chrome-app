@@ -7,3 +7,6 @@ const bgImg=document.createElement("img");
 bgImg.src = `img/${chosenImg}`;
 
 document.body.appendChild(bgImg);
+
+bgImg.id="bgImg";
+
